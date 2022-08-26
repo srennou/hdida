@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/product_image"
+                    android:layout_width="350dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_loading"
+                    android:contentDescription="TODO" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_view"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/car_name"
+                android:textSize="20dp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/product_name"
+                android:background="?android:attr/listDivider" />
+
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="price"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/product_price"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/product_seller_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Seller Name | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/product_seller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/product_seller_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Seller"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/product_date_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_seller_tag"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Uploaded On | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/product_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_seller"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/product_seller_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Date"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/product_date"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/Description_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_date_tag"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Description"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/Description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Description_tag"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="100dp"
+                android:fontFamily="sans-serif"
+                android:fontStyle="italic"
+                android:hint="Description"
+                android:textSize="15dp"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/Description"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/city_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider4"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="City | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider4"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/city_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/ville"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtcity"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/carbu_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider5"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Fuel Type | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtcarbu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider5"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/carbu_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/type_carbu"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtcarbu"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/mark_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider6"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Mark | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider6"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/mark_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/marque"
+                android:textSize="15dp" />
+            <View
+                android:id="@+id/divider111"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtmark"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/model_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider111"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Model | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtmodel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider111"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/mark_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/modele"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtmodel"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/power_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider7"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Fisscale Power | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtpower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider7"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/power_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/puissance"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtpower"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/boite_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider8"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Gear Box | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtboite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider8"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/boite_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/boite"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtboite"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/nbdoor_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider9"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Doors Number | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtnbdoor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider9"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/nbdoor_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/nb_porte"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtnbdoor"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/main_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider10"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="First User | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtmain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider10"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/main_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/main"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtmain"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/kilo_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider11"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Kilometrage | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtkilo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider11"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/kilo_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/Kilometrage"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtkilo"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/year_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider12"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Model year | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider12"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/year_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/annee_modele"
+                android:textSize="15dp" />
+            <View
+                android:id="@+id/dividerop"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtyear"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/op_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dividerop"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Options | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtoptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dividerop"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/op_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/annee_modele"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/divider13"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txtoptions"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/phone_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider13"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="Phone Number | "
+
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider13"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/phone_tag"
+                android:fontFamily="sans-serif-black"
+                android:fontStyle="italic"
+                android:text="@string/phone"
+                android:textSize="15dp" />
+            <View
+                android:id="@+id/divider20"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_below="@+id/txtphone"
+                android:background="?android:attr/listDivider" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/offer_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:duplicateParentState="true"
+        android:paddingLeft="10dp"
+        android:text="@string/call" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:duplicateParentState="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/delete"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/msg_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/offer_button"
+        android:duplicateParentState="true"
+        android:paddingStart="5dp"
+        android:paddingRight="10dp"
+        android:text="@string/message" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FirebaseAuth</string>
+    <string name="about">عن</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="sell">يبيع</string>
+    <string name="my_profile">الملف الشخصي</string>
+    <string name="Hdida">مرحبا بك في Hdida</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="feedback">تعليق</string>
+    <string name="Welcome_to_Hdida">مرحبا بك في Hdida</string>
+    <string name="quitter">غادر</string>
+    <string name="mode">الوضع</string>
+    <string name="lang">العربية</string>
+    <string name="communicate">تواصل</string>
+</resources>

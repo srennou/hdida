@@ -1,0 +1,699 @@
+<resources>
+    <string name="app_name">FirebaseAuth</string>
+    <string name="email" translatable="false">E-mail</string>
+    <string name="password" translatable="false">Mot de pass</string>
+    <string name="don_t_have_account_sign_up" translatable="false">Don\'t have account? Sign Up</string>
+    <string name="login" translatable="false">se connecter</string>
+    <string name="my_profile">Profile</string>
+    <string name="sell">sell</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+    <string name="share" translatable="false">share</string>
+    <string name="Hdida">Welcome to Hdida</string>"
+    <string name="navigation_drawer_open" translatable="false">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation Drawer</string>
+    <string name="coming_soon" translatable="false">Coming Soon..</string>
+    <string name="home">Home</string>
+    <string name="title" translatable="false">Title</string>
+    <string name="feedback">Feedback</string>
+    <string name="Welcome_to_Hdida">Welcome to Hdida</string>
+    <string name="intro" translatable="false">Platform pour vent et achat des voitures d\'occation.</string>
+    <string name="our_team" translatable="false">Realisateur</string>
+    <string name="s" translatable="false">"Name    :    SRENNOU Mohamed          <br /> email       :    simosrennou@gmail.com  <br /> tel   :    +212 689438990 "</string>
+
+    <string name="forgot_pass" translatable="false">Mot de pass oublier? Reset</string>
+    <string name="go_back" translatable="false">Go back</string>
+    <string name="reset_pass" translatable="false">Reset Password</string>
+    <string name="lang">English</string>
+    <string name="mode">mode</string>
+    <string name="quitter">Leave</string>
+    <string name="nom" translatable="false">Nom</string>
+
+
+    <!--add article-->
+    <string name="ville" translatable="false">City</string>
+    <string name="Kilometrage" translatable="false">Kilométrage</string>
+    <string name="annee_modele" translatable="false">Model year</string>
+    <string name="type_carbu" translatable="false">Fuel type</string>
+    <string name="marque" translatable="false">Mark</string>
+    <string name="puissance" translatable="false">Fiscal power</string>
+    <string name="boite" translatable="false">Gearbox</string>
+    <string name="nb_porte" translatable="false">Doors Number</string>
+    <string name="main" translatable="false">First user</string>
+    <string name="option" translatable="false">Option</string>
+    <string name="titre" translatable="false">Titre</string>
+    <string name="des" translatable="false">Description</string>
+    <string name="prix" translatable="false">Price DH</string>
+    <string name="continuer" translatable="false">Continuer</string>
+    <string name="modele" translatable="false">Model</string>
+    <string name="phone" translatable="false">Phone Number</string>
+    <string name="product_price" translatable="false">Car Price</string>
+    <string name="enter_price" translatable="false">Enter Price</string>
+    <string name="description_optional" translatable="false">Description (optional)</string>
+    <string name="short_description" translatable="false">Short Description</string>
+    <string name="upload" translatable="false">Upload</string>
+    <string name="enter_title" translatable="false">Enter Title</string>
+    <string name="car_name" translatable="false">Car Name</string>
+    <string name="call" translatable="false">CALL</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="mail" translatable="false">Mail</string>
+    <string name="options" translatable="false">Options</string>
+    <string name="message" translatable="false">Message</string>
+    <string name="communicate">Communicate</string>
+    <string-array name="pre_main">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="boite_vitesse">
+        <item>Auto</item>
+        <item>manual</item>
+    </string-array>
+    <string-array name="nombre_porte">
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="type_carbus">
+        <item>Diesel</item>
+        <item>Gasoline</item>
+        <item>Electric</item>
+        <item>LGP</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <string-array name="puissance">
+        <item>4 CV</item>
+        <item>5 CV</item>
+        <item>6 CV</item>
+        <item>7 CV</item>
+        <item>8 CV</item>
+        <item>9 CV</item>
+        <item>10 CV</item>
+        <item>11 CV</item>
+        <item>12 CV</item>
+        <item>13 CV</item>
+        <item>14 CV</item>
+        <item>15 CV</item>
+        <item>16 CV</item>
+        <item>17 CV</item>
+        <item>18 CV</item>
+        <item>19 CV</item>
+        <item>20 CV</item>
+        <item>21 CV</item>
+        <item>22 CV</item>
+        <item>23 CV</item>
+        <item>24 CV</item>
+        <item>25 CV</item>
+        <item>26 CV</item>
+        <item>27 CV</item>
+        <item>28 CV</item>
+        <item>29 CV</item>
+        <item>30 CV</item>
+        <item>31 CV</item>
+        <item>32 CV</item>
+        <item>33 CV</item>
+        <item>34 CV</item>
+        <item>35 CV</item>
+        <item>36 CV</item>
+        <item>37 CV</item>
+        <item>38 CV</item>
+        <item>39 CV</item>
+        <item>40 CV</item>
+        <item>41 CV</item>
+        <item>41 CV+</item>
+    </string-array>
+    <string-array name="abath_models">
+        <item>595 Turismo</item>
+        <item>595 Competizione</item>
+        <item>595 Scorpioneoro</item>
+        <item>595 Monster Energy</item>
+        <item>F595</item>
+        <item>695 RANGE</item>
+        <item>695 70° Anniversario</item>
+
+    </string-array>
+    <string-array name="aston_models">
+        <item>DB1</item>
+        <item>DB2 and later DB2/4</item>
+        <item>DB Mark III</item>
+        <item>DB4/GT</item>
+        <item>DB4 GT Zagato</item>
+        <item>DB5</item>
+        <item>DB6</item>
+        <item>DBS and later V8s</item>
+        <item>V8 Zagato</item>
+        <item>Virage/V8/Vantage</item>
+        <item>DB7/Vantage</item>
+        <item>V12 Vanquish/S</item>
+        <item>DB7 Zagato coupé/roadster</item>
+        <item>DB AR1 roadster</item>
+        <item>DB9 coupé/Volante</item>
+        <item>V8/V12 Vantage</item>
+        <item>DBS V12</item>
+        <item>One-77</item>
+        <item>Rapide</item>
+        <item>Virage</item>
+        <item>Cygnet</item>
+        <item>V12 Zagato</item>
+        <item>Vanquish</item>
+        <item>DB11</item>
+        <item>Vantage</item>
+        <item>DBS Superleggera</item>
+    </string-array>
+    <string-array name="alfa_models">
+        <item>RL</item>
+        <item>1500 Sport</item>
+        <item>1750 Super Sport</item>
+        <item>1750 Gran Sport</item>
+        <item>1750 Gran Turismo</item>
+        <item>1750 Flying Star</item>
+        <item>2300</item>
+        <item>2300 Monza</item>
+        <item>Tipo B P3</item>
+        <item>2300 Pescara</item>
+        <item>2300 Mille Miglia</item>
+        <item>Bimotore</item>
+        <item>2900A Spyder</item>
+        <item>Tipo C 8C-35</item>
+        <item>2900B Corto Spyder</item>
+        <item>2900B Lungo Berlinetta</item>
+        <item>158 Alfetta</item>
+        <item>2900B Le Mans</item>
+        <item>2900B Lungo Spyder</item>
+        <item>2500 Sport</item>
+        <item>2500 SS Spider Corsa</item>
+        <item>2500 Super Sport</item>
+        <item>SS Torpedino Brescia</item>
+        <item>2500 Competizione</item>
+        <item>2500 Villa dEste</item>
+        <item>2500 SS Supergioiello</item>
+        <item>1900 C Sprint</item>
+        <item>1900 TI</item>
+        <item>Disco Volante Coupé</item>
+        <item>Disco Volante Spider</item>
+        <item>1900 C Super Sprint</item>
+        <item>1900 TI Super</item>
+        <item>3000 CM</item>
+        <item>BAT 5</item>
+        <item>2000 Sportiva</item>
+        <item>BAT 7</item>
+        <item>1900C SSZ</item>
+        <item>3000 CM Superflow</item>
+        <item>750 Competizione</item>
+        <item>BAT 9d</item>
+        <item>Giulietta Spider</item>
+        <item>Giulietta Sprint Veloce</item>
+        <item>Giulietta SV Alleggerita</item>
+        <item>Giulietta Sprint Speciale</item>
+        <item>Sprint Speciale Prototype</item>
+        <item>2000 Coupé Vignale</item>
+        <item>2000 Spider</item>
+        <item>2000 Praho</item>
+        <item>2600</item>
+        <item>Giulietta SZ</item>
+        <item>Giulietta SZ Codatronca</item>
+        <item>2600 Pininfarina Speciale</item>
+        <item>Giulia Sprint Speciale</item>
+        <item>Giulia TZ</item>
+        <item>Giulia TZ2</item>
+        <item>1600 Duetto Spider</item>
+        <item>2600 SZ</item>
+        <item>T33 2 Stradale Prototipo</item>
+        <item>T33 Mugello</item>
+        <item>T33 Perescopio</item>
+        <item>Montreal</item>
+        <item>1300 Junior Z</item>
+        <item>33-3 Spider</item>
+        <item>1600 GT Junior Z</item>
+        <item>33-3 TT</item>
+        <item>33-3 TT12</item>
+        <item>SZ</item>
+        <item>156 GTA</item>
+        <item>147 GTA</item>
+        <item>Brera</item>
+        <item>BAT 11dk</item>
+        <item>Brera S</item>
+        <item>2uettottanta</item>
+        <item>Pandion</item>
+        <item>TZ3 Corsa</item>
+        <item>TZ3 Stradale</item>
+        <item>4C</item>
+        <item>Disco Volante</item>
+        <item>Gloria</item>
+        <item>4C Spider</item>
+        <item>Giulia Quadrifoglio</item>
+        <item>P2</item>
+        <item>Tipo B P3 Biposto</item>
+        <item>Canguro Concept</item>
+        <item>Iguana Concept</item>
+        <item>T332 Pininfarina Concept</item>
+        <item>Caimano Concept</item>
+        <item>Nuvola Concept</item>
+        <item>Brera Concept</item>
+        <item>Competizione Concept</item>
+        <item>Kamal Concept</item>
+        <item>Spider Concept</item>
+        <item>Diva Concept</item>
+        <item>4C Concept</item>
+        <item>BAT 5</item>
+        <item>BAT 7</item>
+        <item>750 Competizione</item>
+        <item>BAT 9d</item>
+        <item>Sprint Speciale Prototype</item>
+        <item>Brera</item>
+        <item>BAT 11dk</item>
+        <item>2uettottanta</item>
+        <item>Disco Volante</item>
+        <item>Pandion</item>
+        <item>TZ3 Corsa</item>
+        <item>4C Concept</item>
+        <item>Competizione</item>
+        <item>Spider</item>
+        <item>P2</item>
+        <item>Tipo B P3 Biposto</item>
+        <item>12C</item>
+        <item>2900MM</item>
+        <item>159 Alfetta</item>
+        <item>Giulia GTA</item>
+        <item>T33 2 Daytona</item>
+        <item>T332 Le Mans</item>
+        <item>T33 2 Spyder</item>
+        <item>GTAm</item>
+        <item>155 V6 TI</item>
+        <item>155 V6 TI</item>
+        <item>156 Super Turismo</item>
+        <item>33-3 Spider</item>
+
+    </string-array>
+    <string-array name="alpine_models">
+
+        <item>M63</item>
+        <item>M64</item>
+        <item>M65</item>
+        <item>A210</item>
+        <item>A220</item>
+        <item>A360</item>
+        <item>A364</item>
+        <item>A367</item>
+        <item>A440</item>
+        <item>A441</item>
+
+    </string-array>
+    <string-array name="audi_models">
+        <item> Q3</item>
+        <item>Q5</item>
+        <item>Q5 Sportback</item>
+        <item>SQ5</item>
+        <item>Q7</item>
+        <item>SQ7</item>
+        <item>Q8</item>
+        <item>SQ8</item>
+        <item>RS Q8</item>
+        <item>e-tron</item>
+        <item>e-tron Sportback</item>
+        <item>A3 Sedan</item>
+        <item>S3 Sedan</item>
+        <item>RS 3 Sedan</item>
+        <item>A4 Sedan</item>
+        <item>A4 allroad</item>
+        <item>S4 Sedan</item>
+        <item>A5 Coupe</item>
+        <item>S5 Coupe</item>
+        <item>RS 5 Coupe</item>
+        <item>A5 Sportback</item>
+        <item>S5 Sportback</item>
+        <item>RS 5 Sportback</item>
+        <item>A5 Cabriolet</item>
+        <item>S5 Cabriolet</item>
+        <item>A6 Sedan</item>
+        <item>S6 Sedan</item>
+        <item>A7 allroad</item>
+        <item>RS 6 Avant</item>
+        <item>A7 Sportback</item>
+        <item>S7 Sportback</item>
+        <item>RS 7 Sportback</item>
+        <item>A8 L</item>
+        <item>S8</item>
+        <item>TT Coupe</item>
+        <item>TTS</item>
+        <item>TT RS</item>
+        <item>TT Roadster</item>
+        <item>R8 Coupe</item>
+        <item>R8 Spyder</item>
+
+    </string-array>
+    <string-array name="marque">
+        <item>Abarth</item>
+        <item>Alfa Romeo</item>
+        <item>Alpine</item>
+        <item>Aston Martin</item>
+        <item>Audi</item>
+        <item>Bentley</item>
+        <item>BMW</item>
+        <item>Bmw Alpina</item>
+        <item>Cadillac</item>
+        <item>Caterham</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Citroën</item>
+        <item>Cupra</item>
+        <item>Dacia</item>
+        <item>Daihatsu</item>
+        <item>Dodge</item>
+        <item>Donkervoort</item>
+        <item>DS</item>
+        <item>Ferrari</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Genesis	</item>
+        <item>Honda</item>
+        <item>Hummer</item>
+        <item>Hyundai</item>
+        <item>Infiniti</item>
+        <item>Isuzu</item>
+        <item>Jaguar</item>
+        <item>Jeep</item>
+        <item>KIA</item>
+        <item>KTM</item>
+        <item>Lada</item>
+        <item>Lamborghini</item>
+        <item>Lancia</item>
+        <item>Land Rover</item>
+        <item>Lexus</item>
+        <item>Lotus</item>
+        <item>Lynk</item>
+        <item>Maserati</item>
+        <item>Mazda</item>
+        <item>McLaren</item>
+        <item>Mercedes-Benz</item>
+        <item>MG</item>
+        <item>Mia Electric</item>
+        <item>MINI</item>
+        <item>Mitsubishi</item>
+        <item>Nissan	</item>
+        <item>Opel</item>
+        <item>Peugeot</item>
+        <item>Polestar</item>
+        <item>Porsche</item>
+        <item>Renault</item>
+        <item>Rolls-Royce</item>
+        <item>Saab</item>
+        <item>Seat</item>
+        <item>Skoda</item>
+        <item>Smart</item>
+        <item>Ssangyong</item>
+        <item>Subaru</item>
+        <item>Suzuki	</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+    </string-array>
+
+
+    <string-array name="city">
+        <item>Afourar</item>
+        <item>Agadir</item>
+        <item>Agdz </item>
+        <item>Agourai </item>
+        <item>Aguelmous </item>
+        <item>Ahfir</item>
+        <item>Ain Bni Mathar</item>
+        <item>Ain Aleuh</item>
+        <item>Ain Dorij</item>
+        <item>Ain Jemaa</item>
+        <item>Ait Benhaddou</item>
+        <item>Ain Cheggag</item>
+        <item>Ain Defali</item>
+        <item>Ain El Aouda</item>
+        <item>Ain Erreggada</item>
+        <item>Ain Taoujdate</item>
+        <item>Ait Boubidmane</item>
+        <item>Ait Bouhlal</item>
+        <item>Ait Daoud</item>
+        <item>Ait Iaaza</item>
+        <item>Aït Ishaq</item>
+        <item>Ait Ourir</item>
+        <item>Aklim</item>
+        <item>Azrou </item>
+        <item>Ajdir</item>
+        <item>Al Aaroui</item>
+        <item>Al-Hoceima</item>
+        <item>Amalou Ighriben</item>
+        <item>Amgala</item>
+        <item>Amizmiz</item>
+        <item>Aoufous</item>
+        <item>Arbaoua</item>
+        <item>Arfoud </item>
+        <item>Asilah</item>
+        <item>Assahrij</item>
+        <item>Bab Berred</item>
+        <item>Bab Taza</item>
+        <item>Ben Ahmed</item>
+        <item>Beni Chiker</item>
+        <item>Beni Ansar</item>
+        <item>Beni Mellal</item>
+        <item>Ben Slimane</item>
+        <item>Ben Taieb</item>
+        <item>Ben Yakhlef</item>
+        <item>Berkane</item>
+        <item>Berrechid</item>
+        <item>Bhalil</item>
+        <item>Bir GanBirdus</item>
+        <item>Bir Lehlou</item>
+        <item>Bni Bouayach</item>
+        <item>Bni Drar</item>
+        <item>Bni Hadifa</item>
+        <item>Beni Tadjit</item>
+        <item>Bouarfa</item>
+        <item>Bou Craa</item>
+        <item>Bouanane</item>
+        <item>Boudnib</item>
+        <item>Boufakrane</item>
+        <item>Bouguedra</item>
+        <item>Bouizakarne</item>
+        <item>Boujad</item>
+        <item>Boujdour </item>
+        <item>Bouknadel</item>
+        <item>Boulemane</item>
+        <item>Boumalne Dadès</item>
+        <item>Boumia</item>
+        <item>Bouskoura</item>
+        <item>Bouznika</item>
+        <item>Bradia</item>
+        <item>Brikcha</item>
+        <item>Casablanca </item>
+        <item>Chalwa</item>
+        <item>Chefchaouen</item>
+        <item>Chemaia</item>
+        <item>Chichaoua</item>
+        <item>Dakhla </item>
+        <item>Dar Gueddari</item>
+        <item>Dar Kebdani</item>
+        <item>Demnate</item>
+        <item>Douar Bel Aguide</item>
+        <item>Driouch</item>
+        <item>Debdou</item>
+        <item>El Aioun Sidi Mellouk</item>
+        <item>El Guerdane</item>
+        <item>El Hajeb</item>
+        <item>El Hanchane</item>
+        <item>El Jadida </item>
+        <item>Elkbab</item>
+        <item>El Menzel</item>
+        <item>El Ouatia</item>
+        <item>Errachidia </item>
+        <item>Essaouira </item>
+        <item>Farcia</item>
+        <item>Fès</item>
+        <item>Figuig </item>
+        <item>Fnideq</item>
+        <item>Fquih Ben Salah</item>
+        <item>Er-Rich</item>
+        <item>Guelmim</item>
+        <item>Goulmima</item>
+        <item>Guelta Zemmour</item>
+        <item>Guerguerat</item>
+        <item>Guisser</item>
+        <item>Guercif</item>
+        <item>Had Kourt</item>
+        <item>Hagunia</item>
+        <item>Haj Kaddour</item>
+        <item>Harhoura</item>
+        <item>Ighrem-Nougdal</item>
+        <item>Ihddaden</item>
+        <item>Ifrane</item>
+        <item>Imilchil</item>
+        <item>Imilili</item>
+        <item>Imintanoute</item>
+        <item>Imouzzer Kandar</item>
+        <item>Immouzer Marmoucha</item>
+        <item>Inseka</item>
+        <item>Inezgane</item>
+        <item>Issaguen </item>
+        <item>Itzer</item>
+        <item>Jerada </item>
+        <item>Jorf</item>
+        <item>Jorf El Melha</item>
+        <item>Jemâa Sahim</item>
+        <item>Kassita</item>
+        <item>Kattara</item>
+        <item>Kénitra </item>
+        <item>Kehf Nsour</item>
+        <item>Ketama </item>
+        <item>Khémisset</item>
+        <item>Khemis Sahel</item>
+        <item>Khemis Zemamra </item>
+        <item>Khenichet</item>
+        <item>Khénifra</item>
+        <item>Khouribga</item>
+        <item>Ksar el-Kébir</item>
+        <item>klaat Megouna</item>
+        <item>Laâyoune </item>
+        <item>Lagouira </item>
+        <item>Lalla Mimouna</item>
+        <item>Larache</item>
+        <item>Lixus</item>
+        <item>Lqliâa</item>
+        <item>Madagh</item>
+        <item>Marrakech</item>
+        <item>Martil</item>
+        <item>Mechra Bel Ksiri</item>
+        <item>Mediek ou Mdiq</item>
+        <item>Mediouna</item>
+        <item>Mehdia</item>
+        <item>Meknès</item>
+        <item>Melloussa</item>
+        <item>Midelt</item>
+        <item>Mirleft</item>
+        <item>Mohammédia </item>
+        <item>Moqrisset</item>
+        <item>Moulay Ali Cherif</item>
+        <item>Moulay Bousselham</item>
+        <item>Moulay Idriss Zerhoun</item>
+        <item>Mrirt</item>
+        <item>Nador</item>
+        <item>Nhima</item>
+        <item>Ouarzazate</item>
+        <item>Oualidia</item>
+        <item>Ouezzane</item>
+        <item>Oujda</item>
+        <item>Oukaimeden</item>
+        <item>Oulad Amrane</item>
+        <item>Oulad Ayad</item>
+        <item>Oulad Berhil</item>
+        <item>Oulad Frej</item>
+        <item>Oulad Ghadbane</item>
+        <item>Oulad H Riz Sahel</item>
+        <item>Oulad M Rah</item>
+        <item>Oulad M Barek</item>
+        <item>Oulad Teïma</item>
+        <item>Oulad Zbair</item>
+        <item>Ouled Tayeb</item>
+        <item>Ouled Youssef</item>
+        <item>Oulmès</item>
+        <item>Ounagha</item>
+        <item>Rabat </item>
+        <item>Rommani </item>
+        <item>Ras El Ain</item>
+        <item>Ras El Ma</item>
+        <item>Ribate El Kheir</item>
+        <item>Rissani </item>
+        <item>Sabaa Aiyoun</item>
+        <item>Safi </item>
+        <item>Saïdia</item>
+        <item>Salé </item>
+        <item>Sala El Jadida</item>
+        <item>Sebt El Maârif</item>
+        <item>Sebt Gzoula</item>
+        <item>Sebt Jahjouh</item>
+        <item>Sefrou</item>
+        <item>Settat </item>
+        <item>Sid Zouin</item>
+        <item>Sidi Abdallah Ghiat</item>
+        <item>Sidi Addi</item>
+        <item>Sidi Ali Ban Hamdouche</item>
+        <item>Sidi Allal El Bahraoui</item>
+        <item>Sidi Allal Tazi</item>
+        <item>Sidi Bettache</item>
+        <item>Sidi Bou Othmane</item>
+        <item>Sidi Boubker</item>
+        <item>Sidi Jaber</item>
+        <item>Sidi Kacem </item>
+        <item>Sidi Lyamani</item>
+        <item>Sidi Rahhal</item>
+        <item>Sidi Slimane</item>
+        <item>Sidi Smaïl</item>
+        <item>Sidi Taibi</item>
+        <item>Sidi Yahya el Gharb</item>
+        <item>Skhirat</item>
+        <item>Smara </item>
+        <item>Souq Larba al Gharb</item>
+        <item>Taddert</item>
+        <item>Tafetachte</item>
+        <item>Tafarsit</item>
+        <item>Taghjijt</item>
+        <item>Tahala</item>
+        <item>Tahannaout</item>
+        <item>Tainaste</item>
+        <item>Taliouine</item>
+        <item>Talmest</item>
+        <item>Talssint</item>
+        <item>Tanger</item>
+        <item>Tan-Tan</item>
+        <item>Tamallalt</item>
+        <item>Tamanar</item>
+        <item>Tameslouht</item>
+        <item>Tamesna</item>
+        <item>Taourirte</item>
+        <item>Taounate </item>
+        <item>Tarfaya </item>
+        <item>Taroudannt</item>
+        <item>Tata</item>
+        <item>Taza</item>
+        <item>Taznakht</item>
+        <item>Télouet</item>
+        <item>Temara</item>
+        <item>Temsia</item>
+        <item>Tétouan</item>
+        <item>Thar Es-Souk</item>
+        <item>Tichla</item>
+        <item>Tidass</item>
+        <item>Tifariti</item>
+        <item>Tiflet</item>
+        <item>Tighza</item>
+        <item>Timahdite</item>
+        <item>Tinejdad</item>
+        <item>Tinghir</item>
+        <item>Tinmel</item>
+        <item>Tounfite</item>
+        <item>Tiznit</item>
+        <item>Tiztoutine</item>
+        <item>Torres de Alcala</item>
+        <item>Tifelt</item>
+        <item>Volubilis </item>
+        <item>Youssoufia</item>
+        <item>Zagora</item>
+        <item>Zaio</item>
+    </string-array>
+    <string-array name="Options_array">
+
+        <item>Jantes aluminium</item>
+        <item>Airbags</item>
+        <item>Climatisation</item>
+        <item>GPS</item>
+        <item>Toit ouvrant</item>
+        <item>Siéges cuir</item>
+        <item>Radar de recul</item>
+        <item>Caméra de recul</item>
+        <item>Vitres électriques</item>
+        <item>ABS</item>
+        <item>ESP</item>
+        <item>Régulateur de vitesse</item>
+        <item>Limiteur de vitesse</item>
+        <item>CD/MP3/Bluetooth</item>
+        <item>Ordinateur de bord</item>
+        <item>Verrouillage centralisé à distance</item>
+
+
+    </string-array>
+</resources>
